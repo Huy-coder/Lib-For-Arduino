@@ -7,6 +7,7 @@ class ir_sensor
   public:
     void IR_sensor(int IR, int led);
     void ReadValue_IR(void);
+    void ReBouncing(void);
     int _IR;
     int _led;
 };
